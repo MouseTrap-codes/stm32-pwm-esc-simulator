@@ -1,3 +1,7 @@
-Simulated pwm for motor control through esc.
-Incremented duty cycle to oscillate the period on from 1ms to 2ms.
-Showcased working simulation through the brightening and dimming of LED according to the pwm.
+This project simulates PWM-based motor control using an ESC (Electronic Speed Controller) on an STM32 microcontroller.
+
+Configured a timer to generate a 50 Hz PWM signal (20 ms period).
+
+Dynamically varied the duty cycle between 1 ms and 2 ms to simulate throttle range for ESC.
+
+Verified PWM behavior by routing the signal to an LED — brightness changes with duty cycle, mimicking motor speed control.
